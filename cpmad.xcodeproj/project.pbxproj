@@ -8,6 +8,8 @@
 
 /* Begin PBXFileReference section */
 		0A9E611F2EA560FE009B59A7 /* cpmad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cpmad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9E61732EA57DEB009B59A7 /* Runner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Runner.xcodeproj; sourceTree = "<group>"; };
+		0A9E61962EA57DEB009B59A7 /* Runner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Runner.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,6 +43,20 @@
 			isa = PBXGroup;
 			children = (
 				0A9E611F2EA560FE009B59A7 /* cpmad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9E61BA2EA57DEB009B59A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9E61BC2EA57DEB009B59A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +113,16 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0A9E61202EA560FE009B59A7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0A9E61BC2EA57DEB009B59A7 /* Products */;
+					ProjectRef = 0A9E61962EA57DEB009B59A7 /* Runner.xcodeproj */;
+				},
+				{
+					ProductGroup = 0A9E61BA2EA57DEB009B59A7 /* Products */;
+					ProjectRef = 0A9E61732EA57DEB009B59A7 /* Runner.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0A9E611E2EA560FE009B59A7 /* cpmad */,
